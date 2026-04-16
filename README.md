@@ -58,8 +58,9 @@ Ao cadastrar um usuário e salvar, o backend entra em ação, processa os dados 
 
 ## 6. DTO vs Entity
 DTO: utilizado para transporte de dados na API (entrada e saída)
+
 Entity: representa a estrutura da tabela no banco de dados
 
-DTO não necessariamente reflete exatamente como os dados são armazenados no banco.
+DTO não precisa ter a mesma estrutura dos dados armazenados no banco de dados.
 
 ----
